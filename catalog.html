@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Каталог Нёрдс</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+          <div class="logo">
+            <a href="#"><img src="http://placehold.it/150x100" alt="Nerds"></a>
+          </div>
+          <nav class="main-menu">
+          <ul>
+            <li><a href="#">Студия</a></li>
+            <li><a href="#">Клиенты</a></li>
+            <li>Магазин</li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+          </nav>
+          <div class="user-block">
+            <a class="cart" href="#">Корзина</a>
+          </div>
+          <div class="welcome">Добро пожаловать в магазин<br>
+                               готовых макетов
+          </div>
+        </div>
+      </header>
+      <main class="container">
+        <div class="features">
+          <div class="feature-item">
+            <h2>Стоимость</h2>
+            <img src="http://placehold.it/150x100" alt="Стоимость">
+            <form class="value-form" action="https://echo.htmlacademy.ru" method="post">
+            <label for="price-from">от</label>
+            <input type="text" name="from" placeholder="0" id="price-from">
+            <label for="price-to">до</label>
+            <input type="text" name="to" placeholder="15000" id="price-to">
+            </form>
+          </div>
+          <div class="feature-item">
+            <h2>Сетка</h2>
+            <form class="grid-form" action="https://echo.htmlacademy.ru" method="post">
+              <label><input type="radio" name="grids" value="responsive">Адаптивная</label><br>
+              <label><input type="radio" name="grids" value="fixed">Фиксированная</label><br>
+              <label><input type="radio" name="grids" value="fluid">Резиновая</label>
+            </form>
+          </div>
+          <div class="feature-item">
+            <h2>Особенности</h2>
+            <form class="features-form" action="https://echo.htmlacademy.ru" method="post">
+              <input type="checkbox" name="slider" id="slider-field" checked>
+              <label for="slider-field">Слайдер</label><br>
+              <input type="checkbox" name="advantage" id="advantage-field">
+              <label for="advantage-field">Блок преимуществ</label><br>
+              <input type="checkbox" name="news" id="news-field" checked>
+              <label for="news-field">Новости</label><br>
+              <input type="checkbox" name="gallery" id="gallery-field">
+              <label for="gallery-field">Галерея</label><br>
+              <input type="checkbox" name="cart" id="cart-field">
+              <label for="cart-field">Корзина</label>
+            </form>
+          </div>
+          <a class="btn btn-gray" href="#">Показать</a>
+        </div>
+        <div class="items">
+          <div class="choice">
+          <h3>Сортировать:</h3>
+          <ul>
+            <li><a href="#">По цене</a></li>
+            <li><a href="#">По типу</a></li>
+            <li><a href="#">По функционалу</a></li>
+          </ul>
+          </div>
+          <div class="catalog-item">
+            <a href="#"><img src="http://placehold.it/100x150" alt="Aviator"></a>
+          </div>
+          <div class="catalog-item">
+            <a href="#"><img src="http://placehold.it/100x150" alt="Sunset"></a>
+          </div>
+          <div class="catalog-item">
+            <a href="#"><img src="http://placehold.it/100x150" alt="Forte"></a>
+          </div>
+          <div class="catalog-item">
+            <a href="#"><img src="http://placehold.it/100x150" alt="Modern organic thai"></a>
+          </div>
+          <div class="catalog-item">
+            <a href="#"><img src="http://placehold.it/100x150" alt="Avenue"></a>
+          </div>
+          <div class="catalog-item">
+            <a href="#"><img src="http://placehold.it/100x150" alt="Dovetail"></a>
+          </div>
+          </div>
+          <div class="paginator">
+            <a href="#1" class="current">1</a>
+            <a href="#2">2</a>
+            <a href="#3">3</a>
+            <a href="#next" class="btn btn-gray">Следующая</a>
+          </div>
+      </main>
+      <footer class="main-footer">
+        <div class="container">
+          <div class="footer-top">
+            <img src="http://placehold.it/600x450" alt="map">
+            <div class="contacts">
+              <div class="contacts-title">Nёrds design studio
+              </div>
+              <p>191186, Санкт-Петербург,<br>
+                ул. Б. Конюшенная, д. 19/8</p>
+              <p>тел. +7 (812) 275-75-75</p>
+              <a class="btn btn-red" href="#">Напишите нам</a>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="footer-social">
+              <a class="social social-vk" href="#">Вконтакте</a>
+              <a class="social social-fb" href="#">Фейсбук</a>
+              <a class="social social-inst" href="#">Инстаграм</a>
+            </div>
+            <div class="discount">
+              <div class="discount-promo">Давайте дружить, это выгодно!
+              </div>
+              <p>Скидка 10% для друзей из социальных сетей.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </body>
+</html>
