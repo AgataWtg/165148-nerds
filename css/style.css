@@ -1,4 +1,7 @@
 body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
   font-size: 14px;
   line-height: 18px;
   color: #000000;
@@ -8,9 +11,186 @@ body {
 h2 {
   font-size: 18px;
   line-height: 30px;
+  text-transform: uppercase;
 }
-
 h3 {
   font-size: 16px;
   line-height: 22px;
+  text-transform: uppercase;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container {
+  width: 880px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.main-header {
+  background-color: #eeeeee;
+  padding-bottom: 50px;
+}
+.logo {
+  float: left;
+  width: 140px;
+  height: 56px;
+}
+.main-menu {
+  float: left;
+  width: 480px;
+}
+.user-block {
+  float: right;
+  width: 100px;
+}
+.slider-content {
+  background-color: #eeeeee;
+  margin-bottom: 70px;
+}
+.slider {
+  position: relative;
+}
+.slider input[type=radio]{
+  display: none;
+}
+
+.slider-slides {
+  width: 300%;
+}
+.slider-slides .slide {
+  width: 880px;
+  float: left;
+}
+.slider-inner {
+  overflow: hidden;
+}
+.slider-controls {
+  position: absolute;
+  top: 200px;
+  left: 400px;
+}
+.slider-controls label {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 3px;
+  cursor: pointer;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
+  border-radius: 50%;
+  background: white;
+}
+
+.slide-content {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+}
+.promo-title {
+  font-size: 36px;
+  line-height: 1.2;
+}
+.slide-image {
+  float: right;
+  width: 340px;
+}
+.features {
+  margin-bottom: 80px;
+}
+.features-item {
+  float: left;
+  width: 240px;
+  margin-right: 80px;
+}
+.features-item:last-child {
+  margin-right: 0;
+}
+.index-content {
+  margin-bottom: 85px;
+}
+.index-content-left {
+  float: left;
+  width: 620px;
+}
+.index-content-right {
+  float: right;
+  width: 240px;
+}
+
+.index-promo {
+  font-size: 36px;
+  line-height: 1.3;
+}
+
+.logo-item {
+  float: left;
+  width: 240px;
+  margin-right: 80px;
+}
+.logo-item:last-child{
+  margin-right: 0;
+}
+.map {
+  position: relative;
+  margin-top: 85px;
+  width: 1199px;
+  height: 416px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.contacts {
+  position: absolute;
+  top: 85px;
+  left: 160px;
+  width: 250px;
+  background: #ffffff;
+  padding: 30px 20px;
+}
+.main-footer {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.footer-social {
+  float: left;
+  width: 240px;
+}
+.discount {
+  float: right;
+  width: 580px;
+}
+/* Стили каталога */
+.welcome {
+  background-color: #eeeeee;
+  padding-bottom: 90px;
+  margin-bottom: 80px;
+}
+.welcome-text {
+  width: 700px;
+  font-size: 40px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.filter-form {
+  float: left;
+  width: 240px;
+}
+.catalog-items {
+  float: right;
+  width: 560px;
+}
+
+.catalog-item {
+  display: inline-block;
+  width: 240px;
+  height: 240px;
+  margin-right: 76px;
+  margin-bottom: 80px;
+}
+.catalog-item:nth-child(odd) {
+  margin-right: 0;
 }
