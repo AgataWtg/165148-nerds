@@ -7,8 +7,8 @@
   </head>
   <body>
 
-    <header class="main-header clearfix">
-      <div class="container">
+    <header class="main-header">
+      <div class="container clearfix">
           <div class="logo">
             <a href="#"><img src="img/logo.png" width="139" height="56" alt="Nerds"></a>
           </div>
@@ -16,12 +16,12 @@
           <ul>
             <li><a href="#">Студия</a></li>
             <li><a href="#">Клиенты</a></li>
-            <li>Магазин</li>
+            <li class="onpage">Магазин</li>
             <li><a href="#">Контакты</a></li>
           </ul>
           </nav>
           <div class="user-block">
-            <a class="cart" href="#">Корзина</a>
+            <a class="cart" href="#"><span class="icon-basket"></span>Корзина</a>
           </div>
         </div>
       </header>
@@ -48,9 +48,12 @@
 
           <div class="filter-item">
             <h2>Сетка</h2>
-              <label><input type="radio" name="grids" value="responsive">Адаптивная</label>
-              <label><input type="radio" name="grids" value="fixed">Фиксированная</label>
-              <label><input type="radio" name="grids" value="fluid">Резиновая</label>
+              <input type="radio" name="grids" value="responsive" id="responsive-field" checked>
+              <label for="responsive-field">Адаптивная</label>
+              <input type="radio" name="grids" value="fixed" id="fixed-field">
+              <label for="fixed-field">Фиксированная</label>
+              <input type="radio" name="grids" value="fluid" id="fluid-field">
+              <label for="fluid-field">Резиновая</label>
           </div>
 
           <div class="filter-item">
@@ -66,7 +69,7 @@
               <input type="checkbox" name="cart" id="cart-field">
               <label for="cart-field">Корзина</label>
           </div>
-          <button class="btn btn-gray">Показать</button>
+          <button class="btn btn-show btn-gray">Показать</button>
           </form>
 
   <!-- end form -->
@@ -74,37 +77,64 @@
       <div class="catalog-items">
 
         <div class="sort">
-          <div class="choice">
-          <h3>Сортировать:</h3>
+          <h4>Сортировать:</h4>
           <ul>
             <li><a href="#">По цене</a></li>
             <li><a href="#">По типу</a></li>
             <li><a href="#">По функционалу</a></li>
-          </ul>
-          <div class="arrow">
-            <span class="arrow-up">△</span>
-            <span class="arrow-down">▽</span>
-          </div>
+            <div class="arrows">
+            <a href="#"><span class="icon-up-dir active"></span></a>
+            <a href="#"><span class="icon-down-dir"></span></a>
           </div>
         </div>
 
           <div class="catalog-item">
             <a href="#"><img src="img/catalog-aviator.jpg" width="240" height="240" alt="Aviator"></a>
+            <div class="item-price hidden">
+              <h2 class="item-title">Aviator</h2>
+              <p class="item-text">Одностраничный макет<br> с авторским дизайном</p>
+              <a class="btn btn-red" href="#">8000 р.</a>
+            </div>
           </div>
           <div class="catalog-item">
             <a href="#"><img src="img/catalog-sunset.jpg" width="240" height="240" alt="Sunset"></a>
+            <div class="item-price">
+              <h2 class="item-title">Sunset</h2>
+              <p class="item-text">Интернет-магазин<br> с личным кабинетом</p>
+              <a class="btn btn-red" href="#">10000 р.</a>
+            </div>
           </div>
           <div class="catalog-item">
             <a href="#"><img src="img/catalog-forte.jpg" width="240" height="240" alt="Forte"></a>
-          </div>
+            <div class="item-price hidden">
+              <h2 class="item-title">Forte</h2>
+              <p class="item-text">Отличный макет<br> для личного блога</p>
+              <a class="btn btn-red" href="#">5000 р.</a>
+            </div>
+            </div>
           <div class="catalog-item">
             <a href="#"><img src="img/catalog-thai.jpg" width="240" height="240" alt="Modern organic thai"></a>
+            <div class="item-price hidden">
+              <h2 class="item-title">Modern organic thai</h2>
+              <p class="item-text">Сайт для ресторана быстрого питания</p>
+              <a class="btn btn-red" href="#">12000 р.</a>
+            </div>
           </div>
           <div class="catalog-item">
             <a href="#"><img src="img/catalog-avenue.jpg" width="240" height="240" alt="Avenue"></a>
+            <div class="item-price hidden">
+              <h2 class="item-title">Avenue</h2>
+              <p class="item-text">Макет для блога о путешествиях</p>
+              <a class="btn btn-red" href="#">8000 р.</a>
+            </div>
           </div>
           <div class="catalog-item">
             <a href="#"><img src="img/catalog-dovetail.jpg" width="240" height="240" alt="Dovetail"></a>
+            <div class="item-price hidden">
+              <h2 class="item-title">Dovetail</h2>
+              <p class="item-text">Интернет-магазин<br> с галереей товаров</p>
+              <a class="btn btn-red" href="#">14000 р.</a>
+            </div>
           </div>
 
 
@@ -112,7 +142,7 @@
             <a href="#1" class="current">1</a>
             <a href="#2">2</a>
             <a href="#3">3</a>
-            <a href="#next" class="btn btn-gray">Следующая</a>
+            <a href="#next">Следующая</a>
           </div>
           </div>
          </div>
@@ -123,20 +153,20 @@
           <img src="img/map.jpg" width="1199" height="416" alt="Карта">
           <div class="contacts">
             <h3>Nёrds design studio</h3>
-            <p>191186, Санкт-Петербург,
+            <p>191186, Санкт-Петербург,<br>
               ул. Б. Конюшенная, д. 19/8</p>
-            <a href="tel.: +7 (812) 275-75-75">тел. +7 (812) 275-75-75</a>
-            <a class="btn btn-red" href="#">Напишите нам</a>
+            <a class="phone" href="tel.: +7 (812) 275-75-75">тел. +7 (812) 275-75-75</a>
+            <a class="btn btn-contacts btn-red" href="#">Напишите нам</a>
           </div>
       </section>
       <!-- end map -->
 
-        <footer class="main-footer clearfix">
-          <div class="container">
+        <footer class="main-footer">
+          <div class="container clearfix">
               <div class="footer-social">
-                <a class="social social-vk" href="#">Вконтакте</a>
-                <a class="social social-fb" href="#">Фейсбук</a>
-                <a class="social social-inst" href="#">Инстаграм</a>
+                <a class="social" href="#">Вконтакте<span class="icon-vk"></span></a>
+                <a class="social" href="#">Фейсбук<span class="icon-facebook"></span></a>
+                <a class="social" href="#">Инстаграм<span class="icon-instagramm"></span></a>
               </div>
               <div class="discount">
                 <div class="index-promo">Давайте дружить, это выгодно!
