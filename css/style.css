@@ -73,7 +73,7 @@ p {
   color: #283136;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 500;
   line-height: 22px;
   margin: 0;
   padding: 0;
@@ -124,7 +124,7 @@ p {
   font-weight: 500;
   line-height: 30px;
   margin-left: 45px;
-  padding-top: 47px;
+  padding-top: 53px;
   text-transform: uppercase;
   vertical-align: top;
 }
@@ -150,7 +150,7 @@ p {
 
 .user-block {
   float: right;
-  padding-top: 47px;
+  padding-top: 53px;
   width: 100px;
 }
 
@@ -168,7 +168,7 @@ p {
 
 .user-block span {
   opacity: 0.3;
-  padding-right: 10px;
+  padding-right: 12px;
 }
 
 .user-block a:hover {
@@ -197,6 +197,7 @@ p {
 
 .slider {
   position: relative;
+  height: 300px;
 }
 
 .slider input[type=radio]{
@@ -217,9 +218,9 @@ p {
 }
 
 .slider-controls {
-  left: 400px;
+  left: 401px;
   position: absolute;
-  top: 200px;
+  top: 197px;
 }
 
 .slider-controls label {
@@ -247,8 +248,8 @@ p {
 }
 
 .slide-content p {
-  padding-bottom: 30px;
-  padding-top: 25px;
+  padding-bottom: 27px;
+  padding-top: 16px;
 }
 
 .slide-image {
@@ -265,7 +266,7 @@ p {
   font-size: 12px;
   font-weight: 500;
   line-height: 18px;
-  padding: 10px 40px;
+  padding: 10px 39px;
   text-transform: uppercase;
   text-decoration: none;
   vertical-align: top;
@@ -301,10 +302,6 @@ p {
   box-shadow: inset 0 2px 0 0 #a3841f;
 }
 
-.btn-contacts {
-  padding: 10px 50px;
-}
-
 .btn-red:hover {
   background-color: #d6494d;
 }
@@ -325,7 +322,7 @@ p {
 
 .features-item {
   float: left;
-  margin-right: 60px;
+  margin-right: 80px;
   width: 240px;
 }
 
@@ -336,17 +333,17 @@ p {
 .features-item p {
   font-size: 15px;
   padding-bottom: 25px;
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
 .features-item img {
-  padding-bottom: 25px;
+  padding-bottom: 20px;
 }
 
 .index-content .container {
   border-bottom: 2px solid #eeeeee;
   margin-bottom: 45px;
-  padding-bottom: 72px;
+  padding-bottom: 70px;
 }
 
 .index-content p {
@@ -356,7 +353,7 @@ p {
 
 .index-content-left {
   float: left;
-  padding-top: 15px;
+  padding-top: 10px;
   width: 620px;
 }
 
@@ -369,6 +366,7 @@ p {
   height: 75px;
   width: 187px;
   margin-left: 30px;
+  margin-bottom: 5px;
 }
 
 .logo-title {
@@ -390,7 +388,7 @@ p {
   height: 2px;
   left: 0px;
   position: absolute;
-  top: 25px;
+  top: 26px;
   width: 65px;
 }
 
@@ -402,7 +400,7 @@ p {
   height: 2px;
   left: 180px;
   position: absolute;
-  top: 25px;
+  top: 26px;
   width: 62px;
 }
 
@@ -411,8 +409,8 @@ p {
   line-height: 36px;
 }
 
-.index-content-right .promo-title {
-  padding-top: 70px;
+.index-content-right .promo-list {
+  padding-top: 20px;
 }
 
 .index-content ul {
@@ -427,7 +425,7 @@ p {
   font-weight: 500;
   line-height: 22px;
   padding-left: 37px;
-  padding-top: 30px;
+  padding-top: 22px;
   position: relative;
 }
 
@@ -437,19 +435,19 @@ p {
   height: 2px;
   left: 0px;
   position: absolute;
-  top: 45px;
+  top: 32px;
   width: 25px;
 }
 
 .logos-list .container {
   border-bottom: 2px solid #eeeeee;
-  margin-bottom: 5px;
   padding-bottom: 30px;
+  margin-bottom: 85px;
 }
 
 .logo-item {
   display: inline-block;
-  margin-right: 120px;
+  margin-right: 117px;
   opacity: 0.2;
   vertical-align: middle;
 }
@@ -474,32 +472,32 @@ p {
   height: 416px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 80px;
+  margin-top: 79px;
   position: relative;
-  width: 1199px;
+  width: 1200px;
 }
 
 .contacts {
   background: #ffffff;
-  height: 220px;
+  height: 215px;
   left: 160px;
   padding-left: 20px;
-  padding-top: 30px;
+  padding-top: 27px;
   position: absolute;
-  top: 85px;
+  top: 87px;
   width: 230px;
 }
 
 .contacts h3 {
   color: #000;
   line-height: 30px;
-  padding-bottom: 15px;
+  padding-bottom: 12px;
 }
 
 .contacts p {
   color: #666666;
   line-height: 20px;
-  padding-bottom: 25px;
+  padding-bottom: 19px;
 }
 
 .contacts .phone {
@@ -509,8 +507,12 @@ p {
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
-  padding-bottom: 25px;
+  padding-bottom: 28px;
   text-decoration: none;
+}
+
+.btn-contacts {
+  padding: 10px 55px;
 }
 
 .main-footer {
@@ -556,28 +558,29 @@ p {
 
 .discount {
   float: right;
-  width: 560px;
+  width: 562px;
 }
 
 .discount p{
-  padding-top: 18px;
+  padding-top: 10px;
 }
 
 /* Стили каталога */
 .welcome {
   background-color: #eeeeee;
-  margin-bottom: 80px;
+  height: 90px;
+  margin-bottom: 77px;
   padding-bottom: 90px;
+  padding-top: 14px;
 }
 
 .welcome-text {
   width: 700px;
   font-size: 40px;
   line-height: 1.2;
+  margin-left: 82px;
   text-transform: uppercase;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .filter-form {
@@ -700,7 +703,7 @@ input[type="checkbox"]:checked + label::before {
   float: left;
   font-size: 0;
   list-style: none;
-  margin-right: 100px;
+  margin-right: 94px;
   padding: 0;
 }
 
@@ -845,7 +848,7 @@ input[type="checkbox"]:checked + label::before {
   font-weight: 500;
   height: 38px;
   line-height: 38px;
-  margin-left: 6px;
+  margin-right: 6px;
   min-width: 38px;
   text-align: center;
   text-decoration: none;
