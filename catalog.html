@@ -10,11 +10,11 @@
     <header class="main-header">
       <div class="container clearfix">
           <div class="logo">
-            <a href="#"><img src="img/logo.png" width="139" height="56" alt="Nerds"></a>
+            <a href="index.html"><img src="img/logo.png" width="139" height="56" alt="Nerds"></a>
           </div>
           <nav class="main-menu">
           <ul>
-            <li><a href="#">Студия</a></li>
+            <li><a href="index.html">Студия</a></li>
             <li><a href="#">Клиенты</a></li>
             <li class="onpage">Магазин</li>
             <li><a href="#">Контакты</a></li>
@@ -38,12 +38,19 @@
           <div class="container">
             <form class="filter-form" action="https://echo.htmlacademy.ru" method="post">
 
-          <div class="filter-item">
-            <h2>Стоимость</h2>
-            <label for="price-from">от</label>
-            <input type="text" name="from" placeholder="0" id="price-from">
-            <label for="price-to">до</label>
-            <input type="text" name="to" placeholder="15000" id="price-to">
+            <div class="range-filter">
+              <h2>Стоимость</h2>
+              <div class="range-controls">
+                <div class="scale">
+                  <div class="bar" style="margin-left: 0%; width: 70%"></div>
+                </div>
+                <div class="toggle toggle-min"></div>
+                <div class="toggle toggle-max"></div>
+              </div>
+              <div class="price-controls">
+                <label class="min-price">от<input name="min-price" type="text" value="0"></label>
+                <label class="max-price">до<input name="max-price" type="text" value="15000"></label>
+              </div>
           </div>
 
           <div class="filter-item">
@@ -91,7 +98,7 @@
         <div class="catalog-list">
           <div class="catalog-item">
             <a href="#"><img src="img/catalog-aviator.jpg" width="240" height="240" alt="Aviator"></a>
-            <div class="item-price hidden">
+            <div class="item-price">
               <h2 class="item-title">Aviator</h2>
               <p class="item-text">Одностраничный макет<br> с авторским дизайном</p>
               <a class="btn btn-price btn-red" href="#">8000 р.</a>
@@ -107,7 +114,7 @@
           </div>
           <div class="catalog-item">
             <a href="#"><img src="img/catalog-forte.jpg" width="240" height="240" alt="Forte"></a>
-            <div class="item-price hidden">
+            <div class="item-price">
               <h2 class="item-title">Forte</h2>
               <p class="item-text">Отличный макет<br> для личного блога</p>
               <a class="btn btn-price btn-red" href="#">5000 р.</a>
@@ -115,7 +122,7 @@
             </div>
           <div class="catalog-item">
             <a href="#"><img src="img/catalog-thai.jpg" width="240" height="240" alt="Modern organic thai"></a>
-            <div class="item-price hidden">
+            <div class="item-price">
               <h2 class="item-title">Modern organic<br> thai</h2>
               <p class="item-text">Сайт для ресторана<br> быстрого питания</p>
               <a class="btn btn-price btn-red" href="#">12000 р.</a>
@@ -123,7 +130,7 @@
           </div>
           <div class="catalog-item">
             <a href="#"><img src="img/catalog-avenue.jpg" width="240" height="240" alt="Avenue"></a>
-            <div class="item-price hidden">
+            <div class="item-price">
               <h2 class="item-title">Avenue</h2>
               <p class="item-text">Макет для блога о путешествиях</p>
               <a class="btn btn-price btn-red" href="#">8000 р.</a>
@@ -131,7 +138,7 @@
           </div>
           <div class="catalog-item">
             <a href="#"><img src="img/catalog-dovetail.jpg" width="240" height="240" alt="Dovetail"></a>
-            <div class="item-price hidden">
+            <div class="item-price">
               <h2 class="item-title">Dovetail</h2>
               <p class="item-text">Интернет-магазин<br> с галереей товаров</p>
               <a class="btn btn-price btn-red" href="#">14000 р.</a>
@@ -152,7 +159,7 @@
       </main>
 
       <section class="map">
-          <img src="img/map.jpg" width="1199" height="416" alt="Карта">
+          <div id="yandex-map"></div>
           <div class="contacts">
             <h3>Nёrds design studio</h3>
             <p>191186, Санкт-Петербург,<br>
@@ -177,5 +184,6 @@
               </div>
             </div>
         </footer>
+        <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=Scouh-xEDebW1wq-05rNnuZiOnHB8fqv&width=1200&height=416&lang=ru_RU&sourceType=constructor&id=yandex-map"></script>
       </body>
     </html>
