@@ -384,6 +384,7 @@ p {
 .index-content p {
   padding-bottom: 45px;
   padding-top: 17px;
+  letter-spacing: 0.1px;
 }
 
 .index-content-left {
@@ -504,6 +505,7 @@ p {
 }
 
 .map {
+  background-image: url("../img/map.jpg");
   height: 416px;
   margin-left: auto;
   margin-right: auto;
@@ -648,6 +650,11 @@ p {
 
 .modal-content-show {
   display: block;
+  animation: bounce 0.6s;
+}
+
+.modal-error {
+  animation: shake 0.6s;
 }
 
 .modal-content-close {
@@ -740,6 +747,7 @@ p {
   outline: none;
   padding: 7px 14px;
   padding-bottom: 12px;
+  resize: none;
   text-transform: uppercase;
   width: 428px;
 }
@@ -866,6 +874,10 @@ p {
   line-height: 20px;
 }
 
+.filter-item label:hover {
+  color: #000000;
+}
+
 input[type="radio"] {
   display: none;
 }
@@ -922,6 +934,15 @@ input[type="checkbox"] + label::before {
 
 input[type="checkbox"]:checked + label::before {
   content: "\2611";
+}
+
+input:hover + label::before {
+  color: #b5b5b5;
+}
+
+input:disabled + label::before {
+  color: #b5b5b5;
+  opacity: 0.3;
 }
 
 .btn-gray {
