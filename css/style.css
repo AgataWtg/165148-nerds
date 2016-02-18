@@ -642,6 +642,10 @@ p {
   width: 470px;
 }
 
+.catalog-modal {
+  top: 276px;
+}
+
 .modal-content-show {
   display: block;
 }
@@ -851,11 +855,7 @@ p {
 }
 
 .filter-item {
-  padding-bottom: 26px;
-}
-
-.filter-item h2 {
-  padding-bottom: 20px;
+  padding-bottom: 27px;
 }
 
 .filter-item label {
@@ -874,7 +874,7 @@ input[type="radio"] + label {
   cursor: pointer;
   display: block;
   line-height: 20px;
-  margin: 19px 0px;
+  margin: 18px 0px;
   padding-left: 35px;
   position: relative;
 }
