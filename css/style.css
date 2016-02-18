@@ -1039,7 +1039,8 @@ input:disabled + label::before {
   display: inline-block;
   color: #c1c1c1;
   font-size: 20px;
-  width: 12px;
+  text-decoration: none;
+  width: 14px;
 }
 
 .icon-up-dir:hover,
