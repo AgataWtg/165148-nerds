@@ -301,8 +301,8 @@ p {
   font-weight: 500;
   line-height: 18px;
   padding: 10px 39px;
-  text-transform: uppercase;
   text-decoration: none;
+  text-transform: uppercase;
   vertical-align: top;
 }
 
@@ -400,9 +400,9 @@ p {
 
 .index-content-right img {
   height: 75px;
-  width: 187px;
   margin-left: 30px;
   margin-bottom: 5px;
+  width: 187px;
 }
 
 .logo-title {
@@ -417,8 +417,8 @@ p {
 }
 
 .logo-title::before {
-  content: "";
   background-color: #eeeeee;
+  content: "";
   display: inline-block;
   float: left;
   height: 2px;
@@ -429,8 +429,8 @@ p {
 }
 
 .logo-title::after {
-  content: "";
   background-color: #eeeeee;
+  content: "";
   display: inline-block;
   float: right;
   height: 2px;
@@ -603,37 +603,8 @@ p {
 }
 
 /*Всплывающая форма*/
-
-@keyframes bounce {
-  0% {
-    transform: translateY(-2000px);
-  }
-  70% {
-    transform: translateY(30px);
-  }
-  90% {
-    transform: translateY(-10px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-
-@keyframes shake {
-  0% 100% {
-    transform: translateX(0);
-  }
-  10% 30% 50% 70% 90% {
-    transform: translateX(-10px);
-  }
-  20% 40% 60% 80% {
-    transform: translateX(10px);
-  }
-}
-
 .modal-content {
   background: #ffffff;
-  top: 1590px;
   box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.3);
   color: #000000;
   display: none;
@@ -641,6 +612,7 @@ p {
   margin-left: -325px;
   padding: 42px 80px;
   position: absolute;
+  top: 1590px;
   width: 470px;
 }
 
@@ -650,11 +622,6 @@ p {
 
 .modal-content-show {
   display: block;
-  animation: bounce 0.6s;
-}
-
-.modal-error {
-  animation: shake 0.6s;
 }
 
 .modal-content-close {
@@ -769,12 +736,12 @@ p {
 }
 
 .welcome-text {
-  width: 700px;
   font-size: 40px;
   line-height: 1.2;
   margin-left: 82px;
   text-transform: uppercase;
   text-align: center;
+  width: 700px;
 }
 
 .filter-form {
@@ -940,11 +907,6 @@ input:hover + label::before {
   color: #b5b5b5;
 }
 
-input:disabled + label::before {
-  color: #b5b5b5;
-  opacity: 0.3;
-}
-
 .btn-gray {
   background-color: #f1f1f1;
   color: #000000;
@@ -1036,8 +998,8 @@ input:disabled + label::before {
 
 .icon-up-dir,
 .icon-down-dir {
-  display: inline-block;
   color: #c1c1c1;
+  display: inline-block;
   font-size: 20px;
   text-decoration: none;
   width: 14px;
