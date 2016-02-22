@@ -1,13 +1,13 @@
 body {
   background: #ffffff;
   color: #000000;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 18px;
-  margin: 0;
+  margin: 0px;
   min-width: 900px;
-  padding: 0;
+  padding: 0px;
 }
 
 @font-face {
@@ -54,8 +54,6 @@ h2 {
   font-size: 18px;
   font-weight: 500;
   line-height: 30px;
-  margin: 0;
-  padding: 0;
   text-transform: uppercase;
 }
 
@@ -64,19 +62,15 @@ h3 {
   font-size: 16px;
   font-weight: 500;
   line-height: 22px;
-  margin: 0;
-  padding: 0;
   text-transform: uppercase;
 }
 
 p {
   color: #283136;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 22px;
-  margin: 0;
-  padding: 0;
 }
 
 .clearfix::after {
@@ -86,8 +80,8 @@ p {
 }
 
 .container {
-  margin: 0 auto;
-  padding: 0 10px;
+  margin: 0px auto;
+  padding: 0px 10px;
   width: 880px;
 }
 
@@ -111,15 +105,15 @@ p {
 }
 
 .main-menu ul {
-  font-size: 0;
+  font-size: 0px;
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 .main-menu li {
   display: inline-block;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 30px;
@@ -144,7 +138,7 @@ p {
   color: #8f8f8f;
 }
 
-.onpage {
+.on-page {
   border-bottom: 2px solid #fb565a;
 }
 
@@ -157,7 +151,7 @@ p {
 .user-block a {
   color: #000000;
   display: block;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 30px;
@@ -196,7 +190,7 @@ p {
 }
 
 .slider-content {
-  margin: 0 auto;
+  margin: 0px auto;
   position: relative;
   width: 880px;
 }
@@ -229,13 +223,13 @@ p {
   cursor: pointer;
   display: inline-block;
   height: 4px;
-  margin: 0 3px;
+  margin: 0px 3px;
   vertical-align: top;
   width: 4px;
 }
 
 .slide-text {
-  padding: 32px 0;
+  padding: 32px 0px;
   width: 480px;
 }
 
@@ -249,6 +243,8 @@ p {
   color: #283136;
   font-weight: 500;
   line-height: 22px;
+  margin: 0px;
+  padding: 0px;
   padding-top: 18px;
 }
 
@@ -296,7 +292,7 @@ p {
   border-radius: 5px;
   color: #ffffff;
   display: inline-block;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 18px;
@@ -321,7 +317,7 @@ p {
 
 .btn-green:active {
   background-color: #009053;
-  box-shadow: inset 0 2px 0 0 #007b47;
+  box-shadow: inset 0px 2px 0px 0px #007b47;
 }
 
 .btn-yellow {
@@ -334,7 +330,7 @@ p {
 
 .btn-yellow:active {
   background-color: #c09b24;
-  box-shadow: inset 0 2px 0 0 #a3841f;
+  box-shadow: inset 0px 2px 0px 0px #a3841f;
 }
 
 .btn-red:hover {
@@ -343,7 +339,7 @@ p {
 
 .btn-red:active {
   background-color: #b63538;
-  box-shadow: inset 0 2px 0 0 #9b2d30;
+  box-shadow: inset 0px 2px 0px 0px #9b2d30;
 }
 
 .features {
@@ -362,13 +358,18 @@ p {
 }
 
 .features-item:last-child {
-  margin-right: 0;
+  margin-right: 0px;
+}
+
+.features-item h2 {
+  margin: 0px;
+  padding: 0px;
 }
 
 .features-item p {
   font-size: 15px;
-  padding-bottom: 25px;
-  padding-top: 15px;
+  margin: 0px;
+  padding: 15px 0px 25px 0px;
 }
 
 .features-item img {
@@ -378,13 +379,7 @@ p {
 .index-content .container {
   border-bottom: 2px solid #eeeeee;
   margin-bottom: 45px;
-  padding-bottom: 70px;
-}
-
-.index-content p {
-  padding-bottom: 45px;
-  padding-top: 17px;
-  letter-spacing: 0.1px;
+  padding-bottom: 50px;
 }
 
 .index-content-left {
@@ -406,7 +401,7 @@ p {
 }
 
 .logo-title {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 500;
   padding-left: 14px;
@@ -424,7 +419,8 @@ p {
   height: 2px;
   left: 0px;
   position: absolute;
-  top: 26px;
+  top: 10px;
+  vertical-align: top;
   width: 65px;
 }
 
@@ -436,7 +432,8 @@ p {
   height: 2px;
   left: 180px;
   position: absolute;
-  top: 26px;
+  top: 10px;
+  vertical-align: top;
   width: 62px;
 }
 
@@ -445,14 +442,15 @@ p {
   line-height: 36px;
 }
 
-.index-content-right .promo-list {
-  padding-top: 20px;
+.index-promo-description {
+  letter-spacing: 0.1px;
+  padding-bottom: 30px;
 }
 
 .index-content ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 .index-content li {
@@ -461,18 +459,28 @@ p {
   font-weight: 500;
   line-height: 22px;
   padding-left: 37px;
-  padding-top: 22px;
+  padding-bottom: 22px;
   position: relative;
 }
 
-.index-content li::before {
+.promo-list li::before {
   background: #fb565a;
   content: "";
   height: 2px;
   left: 0px;
   position: absolute;
-  top: 32px;
+  top: 10px;
   width: 25px;
+}
+
+.promo-list-title {
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 22px;
+}
+
+.promo-list-title-special {
+  padding-top: 50px;
 }
 
 .logos-list .container {
@@ -493,7 +501,7 @@ p {
 }
 
 .logo-item:last-child{
-  margin-right: 0;
+  margin-right: 0px;
 }
 
 .logo-item:hover {
@@ -516,7 +524,7 @@ p {
 
 .contacts {
   background: #ffffff;
-  height: 215px;
+  min-height: 215px;
   left: 160px;
   padding-left: 20px;
   padding-top: 27px;
@@ -526,21 +534,23 @@ p {
 }
 
 .contacts h3 {
-  color: #000;
+  color: #000000;
   line-height: 30px;
+  margin: 0px;
   padding-bottom: 12px;
 }
 
 .contacts p {
   color: #666666;
   line-height: 20px;
+  margin: 0px;
   padding-bottom: 19px;
 }
 
 .contacts .phone {
   color: #666666;
   display: block;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
@@ -567,8 +577,8 @@ p {
   border-radius: 50%;
   color: #ffffff;
   display: inline-block;
-  font-size: 0;
-  height: 62px;
+  font-size: 0px;
+  min-height: 62px;
   margin-right: 23px;
   text-align: center;
   vertical-align: top;
@@ -576,7 +586,7 @@ p {
 }
 
 .social:last-child {
-  margin-right: 0;
+  margin-right: 0px;
 }
 
 .social span {
@@ -590,7 +600,7 @@ p {
 
 .social:active {
   background-color: #d6494d;
-  box-shadow: inset 0 2px 0 0 #b63e42;
+  box-shadow: inset 0px 2px 0px 0px #b63e42;
 }
 
 .discount {
@@ -599,6 +609,7 @@ p {
 }
 
 .discount p{
+  margin: 0px;
   padding-top: 10px;
 }
 
@@ -626,11 +637,11 @@ p {
 
 .modal-content-close {
   background-color: #fb565a;
-  border: 0;
+  border: 0px;
   border-radius: 50%;
   cursor: pointer;
   height: 41px;
-  outline: 0;
+  outline: 0px;
   position: absolute;
   right: 6px;
   top: 6px;
@@ -665,11 +676,12 @@ p {
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 12px;
   line-height: 18px;
-  margin: 0;
+  margin: 0px;
   margin-bottom: 22px;
   outline: none;
   padding: 7px 14px;
   text-transform: uppercase;
+  vertical-align: top;
   width: 188px;
 }
 
@@ -709,7 +721,7 @@ p {
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 12px;
   line-height: 18px;
-  margin: 0;
+  margin: 0px;
   margin-bottom: 45px;
   outline: none;
   padding: 7px 14px;
@@ -729,9 +741,9 @@ p {
 /* Стили каталога */
 .welcome {
   background-color: #eeeeee;
-  height: 90px;
+  min-height: 90px;
   margin-bottom: 73px;
-  padding-bottom: 90px;
+  padding-bottom: 84px;
   padding-top: 24px;
 }
 
@@ -750,10 +762,11 @@ p {
 }
 
 .range-filter {
-  padding-bottom: 45px;
+  padding-bottom: 42px;
 }
 
 .range-filter h2 {
+  margin: 0px;
   padding-bottom: 15px;
 }
 
@@ -783,7 +796,7 @@ p {
   background: #ababab;
   border: 8px solid #ffffff;
   border-radius: 50%;
-  box-shadow: 0 2px 1px 0 #cfcfcf;
+  box-shadow: 0px 2px 1px 0px #cfcfcf;
   cursor: pointer;
   height: 4px;
   left: 0px;
@@ -801,13 +814,14 @@ p {
 }
 
 .price-controls {
-  font-size: 0;
+  font-size: 0px;
 }
 
 .price-controls label {
   display: inline-block;
   font-size: 16px;
   text-transform: uppercase;
+  vertical-align: top;
   width: 50%;
 }
 
@@ -833,9 +847,13 @@ p {
   padding-bottom: 27px;
 }
 
+.filter-item h2 {
+  margin: 0px;
+}
+
 .filter-item label {
   color: #283136;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
@@ -864,9 +882,9 @@ input[type="radio"] + label::before {
   font-family: "symbols-nerds";
   font-size: 28px;
   height: 28px;
-  left: 0;
+  left: 0px;
   position: absolute;
-  top: 0;
+  top: 0px;
   width: 28px;
 }
 
@@ -893,9 +911,9 @@ input[type="checkbox"] + label::before {
   font-family: "symbols-nerds";
   font-size: 28px;
   height: 28px;
-  left: 0;
+  left: 0px;
   position: absolute;
-  top: 0;
+  top: 0px;
   width: 28px;
 }
 
@@ -918,7 +936,7 @@ input:hover + label::before {
 
 .btn-gray:active {
   background-color: #d5d5d5;
-  box-shadow: inset 0 2px 0 0 #b5b5b5;
+  box-shadow: inset 0px 2px 0px 0px #b5b5b5;
 }
 
 .btn-show {
@@ -941,31 +959,31 @@ input:hover + label::before {
 .sort h4 {
   color: #000000;
   float: left;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 18px;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   text-transform: uppercase;
 }
 
 .sort ul {
   float: left;
-  font-size: 0;
+  font-size: 0px;
   list-style: none;
   margin-right: 94px;
-  padding: 0;
+  padding: 0px;
 }
 
 .sort li {
   display: inline-block;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 18px;
   margin-left: 45px;
-  padding: 0;
+  padding: 0px;
   text-transform: uppercase;
   vertical-align: top;
 }
@@ -1002,6 +1020,7 @@ input:hover + label::before {
   display: inline-block;
   font-size: 20px;
   text-decoration: none;
+  vertical-align: top;
   width: 14px;
 }
 
@@ -1031,7 +1050,7 @@ input:hover + label::before {
 }
 
 .catalog-item:nth-child(even) {
-  margin-right: 0;
+  margin-right: 0px;
 }
 
 .catalog-item::before {
@@ -1083,7 +1102,7 @@ input:hover + label::before {
   box-sizing: border-box;
   font-size: 18px;
   margin: 30px 30px 30px 30px;
-  padding: 10px 0;
+  padding: 10px 0px;
   text-align: center;
   vertical-align: bottom;
   width: 140px;
@@ -1103,7 +1122,7 @@ input:hover + label::before {
   border-radius: 5px;
   color: #000000;
   display: inline-block;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 12px;
   font-weight: 500;
   height: 38px;
@@ -1126,20 +1145,20 @@ input:hover + label::before {
 
 .paginator a:active {
   background-color: #d5d5d5;
-  box-shadow: inset 0 2px 0 0 #b5b5b5;
+  box-shadow: inset 0px 2px 0px 0px #b5b5b5;
 }
 
 .paginator .current {
   background-color: #ffffff;
   box-shadow:
-    inset 2px 2px 0 0 #f2f2f2,
-    inset -2px -2px 0 0 #f2f2f2;
+    inset 2px 2px 0px 0px #f2f2f2,
+    inset -2px -2px 0px 0px #f2f2f2;
     cursor: default;
 }
 
 .paginator .current:hover {
   background-color: #ffffff;
   box-shadow:
-    inset 2px 2px 0 0 #f2f2f2,
-    inset -2px -2px 0 0 #f2f2f2;
+    inset 2px 2px 0px 0px #f2f2f2,
+    inset -2px -2px 0px 0px #f2f2f2;
 }

@@ -11,22 +11,22 @@
 
     <header class="main-header">
       <div class="container clearfix">
-          <div class="logo">
-            <a href="index.html"><img src="img/logo.png" width="139" height="56" alt="Nerds"></a>
-          </div>
-          <nav class="main-menu">
+        <div class="logo">
+          <a href="index.html"><img src="img/logo.png" width="139" height="56" alt="Nerds"></a>
+        </div>
+        <nav class="main-menu">
           <ul>
             <li><a href="index.html">Студия</a></li>
             <li><a href="#">Клиенты</a></li>
-            <li class="onpage">Магазин</li>
+            <li class="on-page">Магазин</li>
             <li><a href="#">Контакты</a></li>
           </ul>
-          </nav>
-          <div class="user-block">
-            <a class="cart" href="#"><span class="icon-basket"></span>Корзина</a>
-          </div>
+        </nav>
+        <div class="user-block">
+          <a class="cart" href="#"><span class="icon-basket"></span>Корзина</a>
         </div>
-      </header>
+      </div>
+    </header>
   <!-- end main-header -->
 
    <div class="welcome">
@@ -35,55 +35,55 @@
      </div>
    </div>
 
-      <main>
-        <div class="catalog-content clearfix">
-          <div class="container">
-            <form class="filter-form" action="https://echo.htmlacademy.ru" method="post">
+    <main>
+     <div class="catalog-content">
+       <div class="container clearfix">
+        <form class="filter-form" action="https://echo.htmlacademy.ru" method="post">
 
-            <div class="range-filter">
-              <h2>Стоимость</h2>
-              <div class="range-controls">
-                <div class="scale">
-                  <div class="bar" style="margin-left: 0%; width: 70%"></div>
-                </div>
-                <div class="toggle toggle-min"></div>
-                <div class="toggle toggle-max"></div>
-              </div>
-              <div class="price-controls">
-                <label class="min-price">от<input name="min-price" type="text" value="0"></label>
-                <label class="max-price">до<input name="max-price" type="text" value="15000"></label>
-              </div>
+         <div class="range-filter">
+          <h2>Стоимость</h2>
+          <div class="range-controls">
+            <div class="scale">
+              <div class="bar" style="margin-left: 0%; width: 70%"></div>
+            </div>
+            <div class="toggle toggle-min"></div>
+            <div class="toggle toggle-max"></div>
           </div>
+          <div class="price-controls">
+            <label class="min-price">от<input name="min-price" type="text" value="0"></label>
+            <label class="max-price">до<input name="max-price" type="text" value="15000"></label>
+          </div>
+         </div>
 
           <div class="filter-item">
             <h2>Сетка</h2>
-              <input type="radio" name="grids" value="responsive" id="responsive-field" checked>
-              <label for="responsive-field">Адаптивная</label>
-              <input type="radio" name="grids" value="fixed" id="fixed-field">
-              <label for="fixed-field">Фиксированная</label>
-              <input type="radio" name="grids" value="fluid" id="fluid-field">
-              <label for="fluid-field">Резиновая</label>
+            <input type="radio" name="grids" value="responsive" id="responsive-field" checked>
+            <label for="responsive-field">Адаптивная</label>
+            <input type="radio" name="grids" value="fixed" id="fixed-field">
+            <label for="fixed-field">Фиксированная</label>
+            <input type="radio" name="grids" value="fluid" id="fluid-field">
+            <label for="fluid-field">Резиновая</label>
           </div>
 
           <div class="filter-item">
             <h2>Особенности</h2>
-              <input type="checkbox" name="slider" id="slider-field" checked>
-              <label for="slider-field">Слайдер</label>
-              <input type="checkbox" name="advantage" id="advantage-field">
-              <label for="advantage-field">Блок преимуществ</label>
-              <input type="checkbox" name="news" id="news-field" checked>
-              <label for="news-field">Новости</label>
-              <input type="checkbox" name="gallery" id="gallery-field">
-              <label for="gallery-field">Галерея</label>
-              <input type="checkbox" name="cart" id="cart-field">
-              <label for="cart-field">Корзина</label>
+            <input type="checkbox" name="slider" id="slider-field" checked>
+            <label for="slider-field">Слайдер</label>
+            <input type="checkbox" name="advantage" id="advantage-field">
+            <label for="advantage-field">Блок преимуществ</label>
+            <input type="checkbox" name="news" id="news-field" checked>
+            <label for="news-field">Новости</label>
+            <input type="checkbox" name="gallery" id="gallery-field">
+            <label for="gallery-field">Галерея</label>
+            <input type="checkbox" name="cart" id="cart-field">
+            <label for="cart-field">Корзина</label>
           </div>
           <button class="btn btn-show btn-gray">Показать</button>
-          </form>
+        </form>
 
   <!-- end form -->
 
-      <div class="catalog-items">
+       <div class="catalog-items">
 
         <div class="sort">
           <h4>Сортировать:</h4>
@@ -91,7 +91,7 @@
             <li><a href="#">По цене</a></li>
             <li><a href="#">По типу</a></li>
             <li><a href="#">По функционалу</a></li></ul>
-            <div class="arrows">
+          <div class="arrows">
             <a href="#" class="icon-down-dir active"></a>
             <a href="#" class="icon-up-dir"></a>
           </div>
@@ -121,7 +121,7 @@
               <p class="item-text">Отличный макет<br> для личного блога</p>
               <a class="btn btn-price btn-red" href="#">5000 р.</a>
             </div>
-            </div>
+          </div>
           <div class="catalog-item">
             <a href="#"><img src="img/catalog-thai.jpg" width="240" height="240" alt="Modern organic thai"></a>
             <div class="item-price">
@@ -155,56 +155,57 @@
             <a href="#3">3</a>
             <a href="#next">Следующая</a>
           </div>
-          </div>
-         </div>
         </div>
-      </main>
 
-      <section class="map">
-          <div id="yandex-map"></div>
-          <div class="contacts">
-            <h3>Nёrds design studio</h3>
-            <p>191186, Санкт-Петербург,<br>
-              ул. Б. Конюшенная, д. 19/8</p>
-            <a class="phone" href="tel.:+7(812)275-75-75">тел. +7 (812) 275-75-75</a>
-            <a class="btn btn-contacts btn-red" href="#">Напишите нам</a>
-          </div>
-      </section>
+       </div>
+      </div>
+    </main>
+
+    <section class="map">
+     <div id="yandex-map"></div>
+     <div class="contacts">
+      <h3>Nёrds design studio</h3>
+      <p>191186, Санкт-Петербург,<br>
+       ул. Б. Конюшенная, д. 19/8</p>
+      <a class="phone" href="tel.:+7(812)275-75-75">тел. +7 (812) 275-75-75</a>
+      <a class="btn btn-contacts btn-red" href="#">Напишите нам</a>
+     </div>
+    </section>
       <!-- end map -->
 
-        <footer class="main-footer">
-          <div class="container clearfix">
-              <div class="footer-social">
-                <a class="social" href="#">Вконтакте<span class="icon-vk"></span></a>
-                <a class="social" href="#">Фейсбук<span class="icon-facebook"></span></a>
-                <a class="social" href="#">Инстаграм<span class="icon-instagramm"></span></a>
-              </div>
-              <div class="discount">
-                <div class="index-promo">Давайте дружить, это выгодно!
-                </div>
-                <p>Скидка 10% для друзей из социальных сетей.</p>
-              </div>
-            </div>
-        </footer>
+    <footer class="main-footer">
+     <div class="container clearfix">
+      <div class="footer-social">
+       <a class="social" href="#">Вконтакте<span class="icon-vk"></span></a>
+       <a class="social" href="#">Фейсбук<span class="icon-facebook"></span></a>
+       <a class="social" href="#">Инстаграм<span class="icon-instagramm"></span></a>
+      </div>
+      <div class="discount">
+       <div class="index-promo">Давайте дружить, это выгодно!
+       </div>
+       <p>Скидка 10% для друзей из социальных сетей.</p>
+      </div>
+     </div>
+    </footer>
 
-        <div class="catalog-modal modal-content">
-          <button class="modal-content-close" type="button" title="Закрыть"></button>
-          <form class="comment-form" action="https://echo.htmlacademy.ru" method="post">
-            <div class="username-content">
-              <label for="username-field">Ваше имя:</label>
-              <input type="text" name="username" id="username-field" placeholder="Представьтесь, пожалуйста">
-            </div>
-            <div class="email-content">
-              <label for="email-field">Ваш e-mail</label>
-              <input type="text" name="email" id="email-field" placeholder="Для отправки ответа">
-            </div>
-            <label for="comment-field">Текст письма</label>
-            <textarea name="comment" id="comment-field" rows="5">В свободной форме</textarea>
-            <button class="btn btn-modal btn-red" type="submit" title="Отправить">Отправить</button>
-          </form>
-        </div>
+    <div class="catalog-modal modal-content">
+     <button class="modal-content-close" type="button" title="Закрыть"></button>
+     <form class="comment-form" action="https://echo.htmlacademy.ru" method="post">
+      <div class="username-content">
+        <label for="username-field">Ваше имя:</label>
+        <input type="text" name="username" id="username-field" placeholder="Представьтесь, пожалуйста">
+      </div>
+      <div class="email-content">
+        <label for="email-field">Ваш e-mail</label>
+        <input type="text" name="email" id="email-field" placeholder="Для отправки ответа">
+      </div>
+        <label for="comment-field">Текст письма</label>
+        <textarea name="comment" id="comment-field" rows="5">В свободной форме</textarea>
+        <button class="btn btn-modal btn-red" type="submit" title="Отправить">Отправить</button>
+     </form>
+    </div>
 
-        <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=Scouh-xEDebW1wq-05rNnuZiOnHB8fqv&width=1200&height=416&lang=ru_RU&sourceType=constructor&id=yandex-map"></script>
-        <script src="js/script.min.js"></script>
-      </body>
-    </html>
+    <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=Scouh-xEDebW1wq-05rNnuZiOnHB8fqv&width=1200&height=416&lang=ru_RU&sourceType=constructor&id=yandex-map"></script>
+    <script src="js/script.min.js"></script>
+  </body>
+</html>
